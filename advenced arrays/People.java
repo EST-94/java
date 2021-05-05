@@ -1,5 +1,5 @@
 
-public class People {
+public class People { // 기본 클래스
 	String name;
 	String position;
 	String work;
