@@ -88,7 +88,7 @@ public class ExecClass {
 				}
 			} else if (inputText.equals("exit")) {
 				break;
-			}/
+			}
 		}
 	}
 }
