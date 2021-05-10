@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class quest4344 {
 	
 	// 테스트케이스 C, 학생의 수 N, N명의 점수가 주어진다.
-	// 점수는 0 ~ 100의 정수이다.
+	// 점수는 0이상 100의 정수이다.
 	// 각 케이스마다 한 줄씩 평균을 넘는 비율을 소수점 셋째까지 반올림하여 출력한다.
 	
 public static void main(String[] args) {
