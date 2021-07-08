@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T16:37:13.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="XSCXRGGlsoHEmEaDRDfK" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T16:46:23.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="3qwokPSXznnfZSfbS3Tz" version="14.8.0" type="github">
   <diagram id="0K440dnn0x9xGIZnRLtz" name="Page-1">
     <mxGraphModel dx="1302" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9fcss-TKLAggNk5AWwtI-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="40" width="840" height="470" as="geometry" />
+          <mxGeometry x="-150" y="40" width="1020" height="470" as="geometry" />
         </mxCell>
         <mxCell id="9fcss-TKLAggNk5AWwtI-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="465" y="80" width="170" height="390" as="geometry" />
@@ -34,7 +34,7 @@
         <mxCell id="9fcss-TKLAggNk5AWwtI-6" value="footer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-116" y="420" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9fcss-TKLAggNk5AWwtI-7" value="로그인버튼 &lt;br&gt;/ 회원 닉네임 출력" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9fcss-TKLAggNk5AWwtI-7" value="로그인버튼 &lt;br&gt;/ 회원 닉네임, 로그아웃" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="65" y="150" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9fcss-TKLAggNk5AWwtI-8" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fcss-TKLAggNk5AWwtI-4" target="9fcss-TKLAggNk5AWwtI-5">
@@ -52,7 +52,7 @@
         <mxCell id="9fcss-TKLAggNk5AWwtI-10" value="로그인버튼&amp;nbsp;출력" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="150" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9fcss-TKLAggNk5AWwtI-11" value="회원 닉네임 출력" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9fcss-TKLAggNk5AWwtI-11" value="회원 닉네임, &lt;br&gt;로그아웃 버튼 출력" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="150" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9fcss-TKLAggNk5AWwtI-12" value="게시글 번호 / 제목 / 작성자(닉네임) / 조회수 / 댓글수 / 등록일 출력" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -135,6 +135,18 @@
             <mxPoint x="415.75" y="314.5" as="sourcePoint" />
             <mxPoint x="460" y="315" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9fcss-TKLAggNk5AWwtI-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="170" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="9fcss-TKLAggNk5AWwtI-36" value="로그인화면" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9fcss-TKLAggNk5AWwtI-37" value="회원정보 입력 및 로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9fcss-TKLAggNk5AWwtI-38" value="SNS 계정을 통한 로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="310" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
