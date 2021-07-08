@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T11:41:54.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.5" etag="Bu0XinEb4qP6P3vSc6iX" type="github"><diagram id="0K440dnn0x9xGIZnRLtz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-08T11:49:15.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="g9mKr5T6XJdfroSq9xN-" version="14.8.5" type="github">
+  <diagram id="0K440dnn0x9xGIZnRLtz" name="Page-1">
+    <mxGraphModel dx="1178" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n70uZZaXBDlNjVG5ATqL-1" target="n70uZZaXBDlNjVG5ATqL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-1" value="사용자 접속" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-2" value="게시판 이용" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="n70uZZaXBDlNjVG5ATqL-7" target="n70uZZaXBDlNjVG5ATqL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="200" as="sourcePoint" />
+            <mxPoint x="370" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-7" value="게시글 출력" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-9" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n70uZZaXBDlNjVG5ATqL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="250" as="sourcePoint" />
+            <mxPoint x="410" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-10" value="로그인 시" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="n70uZZaXBDlNjVG5ATqL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-12" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n70uZZaXBDlNjVG5ATqL-7" target="n70uZZaXBDlNjVG5ATqL-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="265" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-13" value="비 로그인 시" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="n70uZZaXBDlNjVG5ATqL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-15" value="수정 / 삭제 가능" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n70uZZaXBDlNjVG5ATqL-16" value="수정 / 삭제 불가능" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
