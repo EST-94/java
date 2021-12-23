@@ -1,0 +1,27 @@
+
+spring:
+  profiles:
+    active: local
+  mvc:
+    static-path-pattern: /static/**
+  web:    
+    resources:
+       static-locations: classpath:/static/
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db1?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: 1234
+
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      format_sql: true
+#      ddl-auto: create
+ 
+#  logging:
+#   level:
+#     org:
+#       hibernate:
+#         SQL: DEBUG
+#         type: trace

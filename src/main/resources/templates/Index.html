@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>JPA demo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       	<script type="text/javascript" th:src="@{/static/js/DemoJS.js}"></script>        
+</head>
+<body>
+	<span style="font-weight:bold" th:if="${text}!=null" th:text="${text}"></span><br><br>
+	<button class="eventMaker">this is read btn</button>
+	<form>
+		<input id="insertVal" type="text">
+		<button class="insertMaker">this is insert btn</button>	
+	</form>
+	<span id = "getResult"></span>
+</body>
+</html>
